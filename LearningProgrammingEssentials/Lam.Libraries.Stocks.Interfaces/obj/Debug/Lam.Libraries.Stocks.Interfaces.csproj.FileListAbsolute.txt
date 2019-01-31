@@ -1,0 +1,5 @@
+C:\000 - .NET\Demonstrations\LearningProgrammingEssentials\Lam.Libraries.Stocks.Interfaces\bin\Debug\Lam.Libraries.Stocks.Interfaces.dll
+C:\000 - .NET\Demonstrations\LearningProgrammingEssentials\Lam.Libraries.Stocks.Interfaces\bin\Debug\Lam.Libraries.Stocks.Interfaces.pdb
+C:\000 - .NET\Demonstrations\LearningProgrammingEssentials\Lam.Libraries.Stocks.Interfaces\obj\Debug\Lam.Libraries.Stocks.Interfaces.csproj.CoreCompileInputs.cache
+C:\000 - .NET\Demonstrations\LearningProgrammingEssentials\Lam.Libraries.Stocks.Interfaces\obj\Debug\Lam.Libraries.Stocks.Interfaces.dll
+C:\000 - .NET\Demonstrations\LearningProgrammingEssentials\Lam.Libraries.Stocks.Interfaces\obj\Debug\Lam.Libraries.Stocks.Interfaces.pdb

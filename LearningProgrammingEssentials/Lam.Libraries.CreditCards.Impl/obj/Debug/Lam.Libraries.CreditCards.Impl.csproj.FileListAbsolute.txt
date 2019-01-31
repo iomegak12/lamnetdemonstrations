@@ -1,0 +1,11 @@
+C:\000 - .NET\Demonstrations\LearningProgrammingEssentials\Lam.Libraries.CreditCards.Impl\bin\Debug\Lam.Libraries.CreditCards.Impl.dll
+C:\000 - .NET\Demonstrations\LearningProgrammingEssentials\Lam.Libraries.CreditCards.Impl\bin\Debug\Lam.Libraries.CreditCards.Impl.pdb
+C:\000 - .NET\Demonstrations\LearningProgrammingEssentials\Lam.Libraries.CreditCards.Impl\bin\Debug\Lam.Libraries.CreditCards.Interfaces.dll
+C:\000 - .NET\Demonstrations\LearningProgrammingEssentials\Lam.Libraries.CreditCards.Impl\bin\Debug\Lam.Libraries.Models.dll
+C:\000 - .NET\Demonstrations\LearningProgrammingEssentials\Lam.Libraries.CreditCards.Impl\bin\Debug\Lam.Libraries.CreditCards.Interfaces.pdb
+C:\000 - .NET\Demonstrations\LearningProgrammingEssentials\Lam.Libraries.CreditCards.Impl\bin\Debug\Lam.Libraries.Models.pdb
+C:\000 - .NET\Demonstrations\LearningProgrammingEssentials\Lam.Libraries.CreditCards.Impl\obj\Debug\Lam.Libraries.CreditCards.Impl.csprojAssemblyReference.cache
+C:\000 - .NET\Demonstrations\LearningProgrammingEssentials\Lam.Libraries.CreditCards.Impl\obj\Debug\Lam.Libraries.CreditCards.Impl.csproj.CoreCompileInputs.cache
+C:\000 - .NET\Demonstrations\LearningProgrammingEssentials\Lam.Libraries.CreditCards.Impl\obj\Debug\Lam.Libraries.CreditCards.Impl.csproj.CopyComplete
+C:\000 - .NET\Demonstrations\LearningProgrammingEssentials\Lam.Libraries.CreditCards.Impl\obj\Debug\Lam.Libraries.CreditCards.Impl.dll
+C:\000 - .NET\Demonstrations\LearningProgrammingEssentials\Lam.Libraries.CreditCards.Impl\obj\Debug\Lam.Libraries.CreditCards.Impl.pdb

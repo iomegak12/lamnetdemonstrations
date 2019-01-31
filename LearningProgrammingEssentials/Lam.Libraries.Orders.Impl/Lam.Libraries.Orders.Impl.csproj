@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6D687286-9CE9-471C-8668-B2D04BC9BD0A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Lam.Libraries.Orders.Impl</RootNamespace>
+    <AssemblyName>Lam.Libraries.Orders.Impl</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="OnlineOrderProcessorImpl.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Lam.Libraries.CreditCards.Interfaces\Lam.Libraries.CreditCards.Interfaces.csproj">
+      <Project>{C2F5EFE5-C211-4279-9A8E-15EEAD8B2B88}</Project>
+      <Name>Lam.Libraries.CreditCards.Interfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Lam.Libraries.DBStore.Interfaces\Lam.Libraries.DBStore.Interfaces.csproj">
+      <Project>{50E47AE8-E4B0-4915-853F-A89C1FABF5AB}</Project>
+      <Name>Lam.Libraries.DBStore.Interfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Lam.Libraries.Models\Lam.Libraries.Models.csproj">
+      <Project>{60EF92D7-46E0-465B-982D-F356886CB52A}</Project>
+      <Name>Lam.Libraries.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Lam.Libraries.Orders.Interfaces\Lam.Libraries.Orders.Interfaces.csproj">
+      <Project>{2570999E-BEF5-408B-ADD3-A1882BD06128}</Project>
+      <Name>Lam.Libraries.Orders.Interfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Lam.Libraries.Stocks.Interfaces\Lam.Libraries.Stocks.Interfaces.csproj">
+      <Project>{0D196F56-0F18-412C-A374-9C63B2BE7969}</Project>
+      <Name>Lam.Libraries.Stocks.Interfaces</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
