@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="00dd6e9b-f37a-41fb-86e1-123cfab84fc2" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://ramthinkpad:8989/mex" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="mex.xsd" MetadataType="Schema" ID="22dcb3f6-0a6b-4fe4-81c4-e5576010d4ae" SourceId="1" SourceUrl="http://ramthinkpad:8989/mex?xsd=xsd1" />
+    <MetadataFile FileName="mex1.xsd" MetadataType="Schema" ID="715b369d-8dc4-4dcf-9a6d-fa6bb6dbecae" SourceId="1" SourceUrl="http://ramthinkpad:8989/mex?xsd=xsd3" />
+    <MetadataFile FileName="mex.wsdl" MetadataType="Wsdl" ID="5937ab0b-f805-41bd-9ca8-40d4fa86955c" SourceId="1" SourceUrl="http://ramthinkpad:8989/mex?wsdl=wsdl1" />
+    <MetadataFile FileName="mex1.wsdl" MetadataType="Wsdl" ID="d19e634a-e276-44ea-932e-b014c276859c" SourceId="1" SourceUrl="http://ramthinkpad:8989/mex?wsdl=wsdl0" />
+    <MetadataFile FileName="mex2.xsd" MetadataType="Schema" ID="79c6d7d6-87d7-4da3-acc4-d6aaa7e26251" SourceId="1" SourceUrl="http://ramthinkpad:8989/mex?xsd=xsd2" />
+    <MetadataFile FileName="CustomerService.wsdl" MetadataType="Wsdl" ID="78fa45aa-ac45-4d2c-99ea-99a947c0cb79" SourceId="1" SourceUrl="http://ramthinkpad:8989/mex" />
+    <MetadataFile FileName="mex3.xsd" MetadataType="Schema" ID="534529d3-a272-437b-969f-3a22356edd50" SourceId="1" SourceUrl="http://ramthinkpad:8989/mex?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

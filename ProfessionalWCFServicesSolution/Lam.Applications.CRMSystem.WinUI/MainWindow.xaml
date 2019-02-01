@@ -1,0 +1,17 @@
+﻿<Window x:Class="Lam.Applications.CRMSystem.WinUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lam.Applications.CRMSystem.WinUI"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Content="Search" HorizontalAlignment="Left" Margin="571,10,0,0" VerticalAlignment="Top" Width="75" Height="23" Click="Button_Click"/>
+        <Label Content="Customer Name:" HorizontalContentAlignment="Right" VerticalContentAlignment="Center" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="23" Width="132"/>
+        <TextBox x:Name="txtCustomerName" HorizontalAlignment="Left" Height="23" Margin="147,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="419"/>
+        <Button Content="Reset" Margin="651,10,10.2,0" VerticalAlignment="Top" Height="23" Click="Button_Click_1"/>
+        <DataGrid x:Name="dgCustomers" Margin="10,38,10.2,9.8"/>
+
+    </Grid>
+</Window>

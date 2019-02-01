@@ -1,0 +1,9 @@
+C:\000 - .NET\Demonstrations\AdvancedLanguageFeaturesSolution\Lam.Libraries.Customers.Interfaces\bin\Debug\Lam.Libraries.Customers.Interfaces.dll
+C:\000 - .NET\Demonstrations\AdvancedLanguageFeaturesSolution\Lam.Libraries.Customers.Interfaces\bin\Debug\Lam.Libraries.Customers.Interfaces.pdb
+C:\000 - .NET\Demonstrations\AdvancedLanguageFeaturesSolution\Lam.Libraries.Customers.Interfaces\bin\Debug\Lam.Libraries.Models.dll
+C:\000 - .NET\Demonstrations\AdvancedLanguageFeaturesSolution\Lam.Libraries.Customers.Interfaces\bin\Debug\Lam.Libraries.Models.pdb
+C:\000 - .NET\Demonstrations\AdvancedLanguageFeaturesSolution\Lam.Libraries.Customers.Interfaces\obj\Debug\Lam.Libraries.Customers.Interfaces.csprojAssemblyReference.cache
+C:\000 - .NET\Demonstrations\AdvancedLanguageFeaturesSolution\Lam.Libraries.Customers.Interfaces\obj\Debug\Lam.Libraries.Customers.Interfaces.csproj.CoreCompileInputs.cache
+C:\000 - .NET\Demonstrations\AdvancedLanguageFeaturesSolution\Lam.Libraries.Customers.Interfaces\obj\Debug\Lam.Libraries.Customers.Interfaces.csproj.CopyComplete
+C:\000 - .NET\Demonstrations\AdvancedLanguageFeaturesSolution\Lam.Libraries.Customers.Interfaces\obj\Debug\Lam.Libraries.Customers.Interfaces.dll
+C:\000 - .NET\Demonstrations\AdvancedLanguageFeaturesSolution\Lam.Libraries.Customers.Interfaces\obj\Debug\Lam.Libraries.Customers.Interfaces.pdb

@@ -1,0 +1,5 @@
+C:\000 - .NET\Demonstrations\AdvancedLanguageFeaturesSolution\Lam.Libraries.Models\bin\Debug\Lam.Libraries.Models.dll
+C:\000 - .NET\Demonstrations\AdvancedLanguageFeaturesSolution\Lam.Libraries.Models\bin\Debug\Lam.Libraries.Models.pdb
+C:\000 - .NET\Demonstrations\AdvancedLanguageFeaturesSolution\Lam.Libraries.Models\obj\Debug\Lam.Libraries.Models.csproj.CoreCompileInputs.cache
+C:\000 - .NET\Demonstrations\AdvancedLanguageFeaturesSolution\Lam.Libraries.Models\obj\Debug\Lam.Libraries.Models.dll
+C:\000 - .NET\Demonstrations\AdvancedLanguageFeaturesSolution\Lam.Libraries.Models\obj\Debug\Lam.Libraries.Models.pdb

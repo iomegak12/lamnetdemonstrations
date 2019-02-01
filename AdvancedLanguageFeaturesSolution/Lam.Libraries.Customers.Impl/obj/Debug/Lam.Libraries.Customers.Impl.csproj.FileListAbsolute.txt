@@ -1,0 +1,11 @@
+C:\000 - .NET\Demonstrations\AdvancedLanguageFeaturesSolution\Lam.Libraries.Customers.Impl\bin\Debug\Lam.Libraries.Customers.Impl.dll
+C:\000 - .NET\Demonstrations\AdvancedLanguageFeaturesSolution\Lam.Libraries.Customers.Impl\bin\Debug\Lam.Libraries.Customers.Impl.pdb
+C:\000 - .NET\Demonstrations\AdvancedLanguageFeaturesSolution\Lam.Libraries.Customers.Impl\bin\Debug\Lam.Libraries.Customers.Interfaces.dll
+C:\000 - .NET\Demonstrations\AdvancedLanguageFeaturesSolution\Lam.Libraries.Customers.Impl\bin\Debug\Lam.Libraries.Models.dll
+C:\000 - .NET\Demonstrations\AdvancedLanguageFeaturesSolution\Lam.Libraries.Customers.Impl\bin\Debug\Lam.Libraries.Customers.Interfaces.pdb
+C:\000 - .NET\Demonstrations\AdvancedLanguageFeaturesSolution\Lam.Libraries.Customers.Impl\bin\Debug\Lam.Libraries.Models.pdb
+C:\000 - .NET\Demonstrations\AdvancedLanguageFeaturesSolution\Lam.Libraries.Customers.Impl\obj\Debug\Lam.Libraries.Customers.Impl.csprojAssemblyReference.cache
+C:\000 - .NET\Demonstrations\AdvancedLanguageFeaturesSolution\Lam.Libraries.Customers.Impl\obj\Debug\Lam.Libraries.Customers.Impl.csproj.CoreCompileInputs.cache
+C:\000 - .NET\Demonstrations\AdvancedLanguageFeaturesSolution\Lam.Libraries.Customers.Impl\obj\Debug\Lam.Libraries.Customers.Impl.csproj.CopyComplete
+C:\000 - .NET\Demonstrations\AdvancedLanguageFeaturesSolution\Lam.Libraries.Customers.Impl\obj\Debug\Lam.Libraries.Customers.Impl.dll
+C:\000 - .NET\Demonstrations\AdvancedLanguageFeaturesSolution\Lam.Libraries.Customers.Impl\obj\Debug\Lam.Libraries.Customers.Impl.pdb

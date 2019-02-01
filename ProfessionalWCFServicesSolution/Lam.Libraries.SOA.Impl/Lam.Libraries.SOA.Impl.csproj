@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2BF6BEC2-84E3-4375-89EB-F46A717EAF98}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Lam.Libraries.SOA.Impl</RootNamespace>
+    <AssemblyName>Lam.Libraries.SOA.Impl</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CustomerService.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Lam.Libraries.ORM.Impl\Lam.Libraries.ORM.Impl.csproj">
+      <Project>{C2E6606E-CFAF-483C-B2CA-656E2EEFAB87}</Project>
+      <Name>Lam.Libraries.ORM.Impl</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Lam.Libraries.ORM.Interfaces\Lam.Libraries.ORM.Interfaces.csproj">
+      <Project>{C8A722D0-821A-4CB8-9314-C0CEE2EE7D3A}</Project>
+      <Name>Lam.Libraries.ORM.Interfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Lam.Libraries.SOA.Contracts.Data\Lam.Libraries.SOA.Contracts.Data.csproj">
+      <Project>{EE78C991-C8AE-41AE-A5E6-2500DE8A9DDA}</Project>
+      <Name>Lam.Libraries.SOA.Contracts.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Lam.Libraries.SOA.Contracts.Faults\Lam.Libraries.SOA.Contracts.Faults.csproj">
+      <Project>{CF910972-FEC3-42F4-B944-3F0E2DFFB77A}</Project>
+      <Name>Lam.Libraries.SOA.Contracts.Faults</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Lam.Libraries.SOA.Contracts.Services\Lam.Libraries.SOA.Contracts.Services.csproj">
+      <Project>{05D4A24C-EA28-4560-8F70-488639751CA0}</Project>
+      <Name>Lam.Libraries.SOA.Contracts.Services</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
