@@ -1,0 +1,9 @@
+C:\000 - .NET\Demonstrations\AdvancedWPFFeaturesSolution\Libraries.Models.Services\bin\Debug\Libraries.Models.Services.dll
+C:\000 - .NET\Demonstrations\AdvancedWPFFeaturesSolution\Libraries.Models.Services\bin\Debug\Libraries.Models.Services.pdb
+C:\000 - .NET\Demonstrations\AdvancedWPFFeaturesSolution\Libraries.Models.Services\bin\Debug\Libraries.Models.dll
+C:\000 - .NET\Demonstrations\AdvancedWPFFeaturesSolution\Libraries.Models.Services\bin\Debug\Libraries.Models.pdb
+C:\000 - .NET\Demonstrations\AdvancedWPFFeaturesSolution\Libraries.Models.Services\obj\Debug\Libraries.Models.Services.csprojAssemblyReference.cache
+C:\000 - .NET\Demonstrations\AdvancedWPFFeaturesSolution\Libraries.Models.Services\obj\Debug\Libraries.Models.Services.csproj.CoreCompileInputs.cache
+C:\000 - .NET\Demonstrations\AdvancedWPFFeaturesSolution\Libraries.Models.Services\obj\Debug\Libraries.Models.Services.csproj.CopyComplete
+C:\000 - .NET\Demonstrations\AdvancedWPFFeaturesSolution\Libraries.Models.Services\obj\Debug\Libraries.Models.Services.dll
+C:\000 - .NET\Demonstrations\AdvancedWPFFeaturesSolution\Libraries.Models.Services\obj\Debug\Libraries.Models.Services.pdb

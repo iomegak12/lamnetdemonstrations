@@ -1,0 +1,11 @@
+C:\000 - .NET\Demonstrations\AdvancedWPFFeaturesSolution\Libraries.Commands\bin\Debug\Libraries.Commands.dll
+C:\000 - .NET\Demonstrations\AdvancedWPFFeaturesSolution\Libraries.Commands\bin\Debug\Libraries.Commands.pdb
+C:\000 - .NET\Demonstrations\AdvancedWPFFeaturesSolution\Libraries.Commands\bin\Debug\Libraries.Models.dll
+C:\000 - .NET\Demonstrations\AdvancedWPFFeaturesSolution\Libraries.Commands\bin\Debug\Libraries.Models.Services.dll
+C:\000 - .NET\Demonstrations\AdvancedWPFFeaturesSolution\Libraries.Commands\bin\Debug\Libraries.Models.Services.pdb
+C:\000 - .NET\Demonstrations\AdvancedWPFFeaturesSolution\Libraries.Commands\bin\Debug\Libraries.Models.pdb
+C:\000 - .NET\Demonstrations\AdvancedWPFFeaturesSolution\Libraries.Commands\obj\Debug\Libraries.Commands.csprojAssemblyReference.cache
+C:\000 - .NET\Demonstrations\AdvancedWPFFeaturesSolution\Libraries.Commands\obj\Debug\Libraries.Commands.csproj.CoreCompileInputs.cache
+C:\000 - .NET\Demonstrations\AdvancedWPFFeaturesSolution\Libraries.Commands\obj\Debug\Libraries.Commands.csproj.CopyComplete
+C:\000 - .NET\Demonstrations\AdvancedWPFFeaturesSolution\Libraries.Commands\obj\Debug\Libraries.Commands.dll
+C:\000 - .NET\Demonstrations\AdvancedWPFFeaturesSolution\Libraries.Commands\obj\Debug\Libraries.Commands.pdb

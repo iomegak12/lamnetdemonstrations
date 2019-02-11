@@ -1,0 +1,38 @@
+﻿<Window x:Class="Applications.AdvancedFeatures.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Applications.AdvancedFeatures"
+        xmlns:models="http://schemas.lamsearch.com/models"
+        xmlns:commands="http://schemas.lamresearch.com/commands"
+        xmlns:extensibility="http://schemas.lamresearch.com/extensibility"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" WindowStartupLocation="CenterScreen" WindowStyle="SingleBorderWindow">
+
+    <Window.Resources>
+        <models:Customers x:Key="customers" />
+        <models:Orders x:Key="orders" />
+        <commands:LoadCustomersCommand x:Key="loadCustomers" />
+        <commands:LoadOrdersCommand x:Key="loadOrders" />
+        <extensibility:CommandInfoConverter x:Key="commandInfoConverter" />
+    </Window.Resources>
+
+    <Grid>
+        <Button Content="Load" HorizontalAlignment="Left" 
+                Command="{StaticResource loadCustomers}"
+                CommandParameter="{StaticResource customers}"
+                Margin="10,10,0,0" VerticalAlignment="Top" Width="75"/>
+        <ListBox x:Name="lstCustomers" ItemsSource="{StaticResource customers}" extensibility:CommandProvider.Command="{StaticResource loadOrders}"
+                 DisplayMemberPath="Name" Height="147" Margin="10,35,10.2,0" VerticalAlignment="Top">
+            <extensibility:CommandProvider.CommandParameter>
+                <MultiBinding Converter="{StaticResource commandInfoConverter}">
+                    <Binding ElementName="lstCustomers" Path="SelectedItem" />
+                    <Binding Source="{StaticResource orders}" />
+                </MultiBinding>
+            </extensibility:CommandProvider.CommandParameter>
+        </ListBox>
+        <DataGrid AutoGenerateColumns="True" ItemsSource="{Binding Source={StaticResource orders}, IsAsync=True}" Margin="10,187,10.2,9.8"/>
+
+    </Grid>
+</Window>

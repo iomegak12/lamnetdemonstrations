@@ -1,0 +1,5 @@
+C:\000 - .NET\Demonstrations\AdvancedWPFFeaturesSolution\Libraries.Models\bin\Debug\Libraries.Models.dll
+C:\000 - .NET\Demonstrations\AdvancedWPFFeaturesSolution\Libraries.Models\bin\Debug\Libraries.Models.pdb
+C:\000 - .NET\Demonstrations\AdvancedWPFFeaturesSolution\Libraries.Models\obj\Debug\Libraries.Models.csproj.CoreCompileInputs.cache
+C:\000 - .NET\Demonstrations\AdvancedWPFFeaturesSolution\Libraries.Models\obj\Debug\Libraries.Models.dll
+C:\000 - .NET\Demonstrations\AdvancedWPFFeaturesSolution\Libraries.Models\obj\Debug\Libraries.Models.pdb

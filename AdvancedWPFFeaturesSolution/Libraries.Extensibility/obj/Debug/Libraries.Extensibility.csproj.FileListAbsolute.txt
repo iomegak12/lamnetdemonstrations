@@ -1,0 +1,13 @@
+C:\000 - .NET\Demonstrations\AdvancedWPFFeaturesSolution\Libraries.Extensibility\bin\Debug\Libraries.Extensibility.dll
+C:\000 - .NET\Demonstrations\AdvancedWPFFeaturesSolution\Libraries.Extensibility\bin\Debug\Libraries.Extensibility.pdb
+C:\000 - .NET\Demonstrations\AdvancedWPFFeaturesSolution\Libraries.Extensibility\bin\Debug\Libraries.Commands.dll
+C:\000 - .NET\Demonstrations\AdvancedWPFFeaturesSolution\Libraries.Extensibility\bin\Debug\Libraries.Models.Services.dll
+C:\000 - .NET\Demonstrations\AdvancedWPFFeaturesSolution\Libraries.Extensibility\bin\Debug\Libraries.Models.dll
+C:\000 - .NET\Demonstrations\AdvancedWPFFeaturesSolution\Libraries.Extensibility\bin\Debug\Libraries.Commands.pdb
+C:\000 - .NET\Demonstrations\AdvancedWPFFeaturesSolution\Libraries.Extensibility\bin\Debug\Libraries.Models.Services.pdb
+C:\000 - .NET\Demonstrations\AdvancedWPFFeaturesSolution\Libraries.Extensibility\bin\Debug\Libraries.Models.pdb
+C:\000 - .NET\Demonstrations\AdvancedWPFFeaturesSolution\Libraries.Extensibility\obj\Debug\Libraries.Extensibility.csprojAssemblyReference.cache
+C:\000 - .NET\Demonstrations\AdvancedWPFFeaturesSolution\Libraries.Extensibility\obj\Debug\Libraries.Extensibility.csproj.CoreCompileInputs.cache
+C:\000 - .NET\Demonstrations\AdvancedWPFFeaturesSolution\Libraries.Extensibility\obj\Debug\Libraries.Extensibility.csproj.CopyComplete
+C:\000 - .NET\Demonstrations\AdvancedWPFFeaturesSolution\Libraries.Extensibility\obj\Debug\Libraries.Extensibility.dll
+C:\000 - .NET\Demonstrations\AdvancedWPFFeaturesSolution\Libraries.Extensibility\obj\Debug\Libraries.Extensibility.pdb
