@@ -1,15 +1,11 @@
-﻿using Lam.Libraries.ORM.Impl;
-using Lam.Libraries.ORM.Interfaces;
+﻿using Lam.Libraries.ORM.Interfaces;
 using Lam.Libraries.SOA.Contracts.Data;
 using Lam.Libraries.SOA.Contracts.Faults;
 using Lam.Libraries.SOA.Contracts.Services;
 using System;
 using System.Collections.Generic;
-using System.Configuration;
 using System.Linq;
 using System.ServiceModel;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Lam.Libraries.SOA.Impl
 {
@@ -17,18 +13,18 @@ namespace Lam.Libraries.SOA.Impl
         Namespace = @"http://schemas.lamresearch.com/behaviors/services")]
     public class CustomerService : ICustomerService, IDisposable
     {
-        private const string CUSTOMERS_CONNECTION_STRING = "CustomersDB";
-
         private ICustomersContext customersContext = default(ICustomersContext);
 
-        public CustomerService()
+        public CustomerService(ICustomersContext customersContext)
         {
-            this.customersContext = new CustomersContext(
-                connectionString: ConfigurationManager.ConnectionStrings[CUSTOMERS_CONNECTION_STRING].ConnectionString);
+            if (customersContext == default(ICustomersContext))
+                throw new ArgumentNullException(nameof(customersContext));
+
+            this.customersContext = customersContext;
         }
 
         [OperationBehavior]
-        public bool AddCustomerDetail(Customer customerDetail)
+        public virtual bool AddCustomerDetail(Customer customerDetail)
         {
             var status = default(bool);
 

@@ -1,0 +1,10 @@
+C:\000 - .NET\Demonstrations\ProfessionalWCFServicesSolution\Lam.Libraries.SOA.Proxies.Callbacks\bin\Debug\Lam.Libraries.SOA.Proxies.Callbacks.dll
+C:\000 - .NET\Demonstrations\ProfessionalWCFServicesSolution\Lam.Libraries.SOA.Proxies.Callbacks\bin\Debug\Lam.Libraries.SOA.Proxies.Callbacks.pdb
+C:\000 - .NET\Demonstrations\ProfessionalWCFServicesSolution\Lam.Libraries.SOA.Proxies.Callbacks\bin\Debug\Lam.Libraries.SOA.Proxies.dll
+C:\000 - .NET\Demonstrations\ProfessionalWCFServicesSolution\Lam.Libraries.SOA.Proxies.Callbacks\bin\Debug\Lam.Libraries.SOA.Proxies.pdb
+C:\000 - .NET\Demonstrations\ProfessionalWCFServicesSolution\Lam.Libraries.SOA.Proxies.Callbacks\bin\Debug\Lam.Libraries.SOA.Proxies.dll.config
+C:\000 - .NET\Demonstrations\ProfessionalWCFServicesSolution\Lam.Libraries.SOA.Proxies.Callbacks\obj\Debug\Lam.Libraries.SOA.Proxies.Callbacks.csprojAssemblyReference.cache
+C:\000 - .NET\Demonstrations\ProfessionalWCFServicesSolution\Lam.Libraries.SOA.Proxies.Callbacks\obj\Debug\Lam.Libraries.SOA.Proxies.Callbacks.csproj.CoreCompileInputs.cache
+C:\000 - .NET\Demonstrations\ProfessionalWCFServicesSolution\Lam.Libraries.SOA.Proxies.Callbacks\obj\Debug\Lam.Libraries.SOA.Proxies.Callbacks.csproj.CopyComplete
+C:\000 - .NET\Demonstrations\ProfessionalWCFServicesSolution\Lam.Libraries.SOA.Proxies.Callbacks\obj\Debug\Lam.Libraries.SOA.Proxies.Callbacks.dll
+C:\000 - .NET\Demonstrations\ProfessionalWCFServicesSolution\Lam.Libraries.SOA.Proxies.Callbacks\obj\Debug\Lam.Libraries.SOA.Proxies.Callbacks.pdb

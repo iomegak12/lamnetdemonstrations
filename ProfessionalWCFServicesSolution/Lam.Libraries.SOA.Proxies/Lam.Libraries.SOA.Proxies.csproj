@@ -56,7 +56,19 @@
   <ItemGroup>
     <None Include="app.config" />
     <None Include="Connected Services\CRMSystem\CustomerService.wsdl" />
+    <None Include="Connected Services\CRMSystem\Lam.Libraries.SOA.Proxies.CRMSystem.AddCustomerDetailResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
     <None Include="Connected Services\CRMSystem\Lam.Libraries.SOA.Proxies.CRMSystem.Customer.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CRMSystem\Lam.Libraries.SOA.Proxies.CRMSystem.FindCustomersResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CRMSystem\Lam.Libraries.SOA.Proxies.CRMSystem.GetAllCustomersResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CRMSystem\Lam.Libraries.SOA.Proxies.CRMSystem.GetCustomerDetailResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
     <None Include="Connected Services\CRMSystem\mex.wsdl" />
@@ -84,6 +96,9 @@
     <None Include="Connected Services\CRMSystem\configuration.svcinfo" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Connected Services\CRMSystem\mex4.xsd">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Connected Services\CRMSystem\Reference.svcmap">
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>

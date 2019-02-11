@@ -59,6 +59,53 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lam.Libraries.SOA.Proxies",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lam.Applications.CRMSystem.WinUI", "Lam.Applications.CRMSystem.WinUI\Lam.Applications.CRMSystem.WinUI.csproj", "{9E1E262C-1A93-4A78-9BDB-36357F2175F1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lam.Applications.CRMSystem.CmdUI", "Lam.Applications.CRMSystem.CmdUI\Lam.Applications.CRMSystem.CmdUI.csproj", "{2288CF3A-07BC-467F-ACC3-9BF03BA79142}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lam.Libraries.SOA.Proxies.Callbacks", "Lam.Libraries.SOA.Proxies.Callbacks\Lam.Libraries.SOA.Proxies.Callbacks.csproj", "{54F69433-7407-4B81-8C08-DA4FD17E460A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IIS Hosting", "IIS Hosting", "{80E20FBB-AB9A-4B09-AFA4-0B26126A6B4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lam.Applications.Services.Hosting.Win", "Lam.Applications.Services.Hosting.Win\Lam.Applications.Services.Hosting.Win.csproj", "{CB2B37DA-D1FF-4BB2-877E-CEB654233B33}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Lam.Applications.Hosting.Web", "Lam.Applications.Hosting.Web\", "{88D2F42F-EB1C-4109-935B-E370336C72A7}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		ProjectReferences = "{c2e6606e-cfaf-483c-b2ca-656e2eefab87}|Lam.Libraries.ORM.Impl.dll;{C8A722D0-821A-4CB8-9314-C0CEE2EE7D3A}|Lam.Libraries.ORM.Interfaces.dll;{EE78C991-C8AE-41AE-A5E6-2500DE8A9DDA}|Lam.Libraries.SOA.Contracts.Data.dll;{2bf6bec2-84e3-4375-89eb-f46a717eaf98}|Lam.Libraries.SOA.Impl.dll;{CF910972-FEC3-42F4-B944-3F0E2DFFB77A}|Lam.Libraries.SOA.Contracts.Faults.dll;{05D4A24C-EA28-4560-8F70-488639751CA0}|Lam.Libraries.SOA.Contracts.Services.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_57180"
+		Debug.AspNetCompiler.PhysicalPath = "Lam.Applications.Hosting.Web\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_57180\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_57180"
+		Release.AspNetCompiler.PhysicalPath = "Lam.Applications.Hosting.Web\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_57180\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "57180"
+		SlnRelativePath = "Lam.Applications.Hosting.Web\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{592B808F-3190-443E-9DEF-1BB17B6D25A1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DI and IoC", "DI and IoC", "{BD0DF76E-AC95-4415-8870-9F25E5397205}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interfaces", "Interfaces", "{C4A96111-FDF0-425F-BA6F-5D644171C5C7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Implementations", "Implementations", "{03E079D9-E482-4E5D-BECA-8D30EA1EB5AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lam.Libraries.DI.Interfaces", "Lam.Libraries.DI.Interfaces\Lam.Libraries.DI.Interfaces.csproj", "{06511E4D-CECF-457A-8507-BAD219E45685}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lam.Libraries.DI.Impl", "Lam.Libraries.DI.Impl\Lam.Libraries.DI.Impl.csproj", "{957AA2AB-0B4B-4DA4-8084-C78A0248D4D8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Extensibility", "Extensibility", "{64EB6E7C-1946-4C37-B229-8B0786098EE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lam.Libraries.SOA.Extensibility", "Lam.Libraries.SOA.Extensibility\Lam.Libraries.SOA.Extensibility.csproj", "{3D55D559-6FB8-404A-9FC3-FE2F93DE98DC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -101,6 +148,34 @@ Global
 		{9E1E262C-1A93-4A78-9BDB-36357F2175F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E1E262C-1A93-4A78-9BDB-36357F2175F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9E1E262C-1A93-4A78-9BDB-36357F2175F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2288CF3A-07BC-467F-ACC3-9BF03BA79142}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2288CF3A-07BC-467F-ACC3-9BF03BA79142}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2288CF3A-07BC-467F-ACC3-9BF03BA79142}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2288CF3A-07BC-467F-ACC3-9BF03BA79142}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54F69433-7407-4B81-8C08-DA4FD17E460A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54F69433-7407-4B81-8C08-DA4FD17E460A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54F69433-7407-4B81-8C08-DA4FD17E460A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54F69433-7407-4B81-8C08-DA4FD17E460A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB2B37DA-D1FF-4BB2-877E-CEB654233B33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB2B37DA-D1FF-4BB2-877E-CEB654233B33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB2B37DA-D1FF-4BB2-877E-CEB654233B33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB2B37DA-D1FF-4BB2-877E-CEB654233B33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88D2F42F-EB1C-4109-935B-E370336C72A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88D2F42F-EB1C-4109-935B-E370336C72A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88D2F42F-EB1C-4109-935B-E370336C72A7}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{88D2F42F-EB1C-4109-935B-E370336C72A7}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{06511E4D-CECF-457A-8507-BAD219E45685}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06511E4D-CECF-457A-8507-BAD219E45685}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06511E4D-CECF-457A-8507-BAD219E45685}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06511E4D-CECF-457A-8507-BAD219E45685}.Release|Any CPU.Build.0 = Release|Any CPU
+		{957AA2AB-0B4B-4DA4-8084-C78A0248D4D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{957AA2AB-0B4B-4DA4-8084-C78A0248D4D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{957AA2AB-0B4B-4DA4-8084-C78A0248D4D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{957AA2AB-0B4B-4DA4-8084-C78A0248D4D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D55D559-6FB8-404A-9FC3-FE2F93DE98DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D55D559-6FB8-404A-9FC3-FE2F93DE98DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D55D559-6FB8-404A-9FC3-FE2F93DE98DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D55D559-6FB8-404A-9FC3-FE2F93DE98DC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -131,6 +206,18 @@ Global
 		{0F065AC3-8690-475F-87F4-AA62B8D6FFBF} = {4E084693-7FCE-4E2C-BD6E-4FD0AB7E8688}
 		{646BD699-B0B3-47BF-A28F-68F23D5D7572} = {084D7C7E-AB16-4E8E-9D60-8E707B62C9C2}
 		{9E1E262C-1A93-4A78-9BDB-36357F2175F1} = {C48B148B-24CC-4E9F-A2A7-68FB7EC16258}
+		{2288CF3A-07BC-467F-ACC3-9BF03BA79142} = {C48B148B-24CC-4E9F-A2A7-68FB7EC16258}
+		{54F69433-7407-4B81-8C08-DA4FD17E460A} = {C48B148B-24CC-4E9F-A2A7-68FB7EC16258}
+		{80E20FBB-AB9A-4B09-AFA4-0B26126A6B4E} = {FB02753B-BB49-4762-BB02-FD8DD095A666}
+		{CB2B37DA-D1FF-4BB2-877E-CEB654233B33} = {48B3C342-5BE9-464F-B592-F30BB21E59CF}
+		{88D2F42F-EB1C-4109-935B-E370336C72A7} = {80E20FBB-AB9A-4B09-AFA4-0B26126A6B4E}
+		{BD0DF76E-AC95-4415-8870-9F25E5397205} = {592B808F-3190-443E-9DEF-1BB17B6D25A1}
+		{C4A96111-FDF0-425F-BA6F-5D644171C5C7} = {BD0DF76E-AC95-4415-8870-9F25E5397205}
+		{03E079D9-E482-4E5D-BECA-8D30EA1EB5AC} = {BD0DF76E-AC95-4415-8870-9F25E5397205}
+		{06511E4D-CECF-457A-8507-BAD219E45685} = {C4A96111-FDF0-425F-BA6F-5D644171C5C7}
+		{957AA2AB-0B4B-4DA4-8084-C78A0248D4D8} = {03E079D9-E482-4E5D-BECA-8D30EA1EB5AC}
+		{64EB6E7C-1946-4C37-B229-8B0786098EE9} = {0E46FC06-C30E-46C6-B6FD-AF7F2160A730}
+		{3D55D559-6FB8-404A-9FC3-FE2F93DE98DC} = {64EB6E7C-1946-4C37-B229-8B0786098EE9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {24FA76BF-EC5C-4A2C-B5D4-21B6892E671F}

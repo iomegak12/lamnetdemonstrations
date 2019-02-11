@@ -1,0 +1,5 @@
+C:\000 - .NET\Demonstrations\ProfessionalWCFServicesSolution\Lam.Libraries.DI.Interfaces\bin\Debug\Lam.Libraries.DI.Interfaces.dll
+C:\000 - .NET\Demonstrations\ProfessionalWCFServicesSolution\Lam.Libraries.DI.Interfaces\bin\Debug\Lam.Libraries.DI.Interfaces.pdb
+C:\000 - .NET\Demonstrations\ProfessionalWCFServicesSolution\Lam.Libraries.DI.Interfaces\obj\Debug\Lam.Libraries.DI.Interfaces.csproj.CoreCompileInputs.cache
+C:\000 - .NET\Demonstrations\ProfessionalWCFServicesSolution\Lam.Libraries.DI.Interfaces\obj\Debug\Lam.Libraries.DI.Interfaces.dll
+C:\000 - .NET\Demonstrations\ProfessionalWCFServicesSolution\Lam.Libraries.DI.Interfaces\obj\Debug\Lam.Libraries.DI.Interfaces.pdb

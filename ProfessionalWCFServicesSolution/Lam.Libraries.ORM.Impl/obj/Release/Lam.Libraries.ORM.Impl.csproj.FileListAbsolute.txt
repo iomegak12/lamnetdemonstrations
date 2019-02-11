@@ -1,0 +1,17 @@
+C:\000 - .NET\Demonstrations\ProfessionalWCFServicesSolution\Lam.Libraries.ORM.Impl\bin\Release\Lam.Libraries.ORM.Impl.dll.config
+C:\000 - .NET\Demonstrations\ProfessionalWCFServicesSolution\Lam.Libraries.ORM.Impl\bin\Release\Lam.Libraries.ORM.Impl.dll
+C:\000 - .NET\Demonstrations\ProfessionalWCFServicesSolution\Lam.Libraries.ORM.Impl\bin\Release\Lam.Libraries.ORM.Impl.pdb
+C:\000 - .NET\Demonstrations\ProfessionalWCFServicesSolution\Lam.Libraries.ORM.Impl\bin\Release\EntityFramework.dll
+C:\000 - .NET\Demonstrations\ProfessionalWCFServicesSolution\Lam.Libraries.ORM.Impl\bin\Release\EntityFramework.SqlServer.dll
+C:\000 - .NET\Demonstrations\ProfessionalWCFServicesSolution\Lam.Libraries.ORM.Impl\bin\Release\Lam.Libraries.ORM.Interfaces.dll
+C:\000 - .NET\Demonstrations\ProfessionalWCFServicesSolution\Lam.Libraries.ORM.Impl\bin\Release\Lam.Libraries.SOA.Contracts.Data.dll
+C:\000 - .NET\Demonstrations\ProfessionalWCFServicesSolution\Lam.Libraries.ORM.Impl\bin\Release\Lam.Libraries.ORM.Interfaces.pdb
+C:\000 - .NET\Demonstrations\ProfessionalWCFServicesSolution\Lam.Libraries.ORM.Impl\bin\Release\Lam.Libraries.ORM.Interfaces.dll.config
+C:\000 - .NET\Demonstrations\ProfessionalWCFServicesSolution\Lam.Libraries.ORM.Impl\bin\Release\Lam.Libraries.SOA.Contracts.Data.pdb
+C:\000 - .NET\Demonstrations\ProfessionalWCFServicesSolution\Lam.Libraries.ORM.Impl\bin\Release\EntityFramework.xml
+C:\000 - .NET\Demonstrations\ProfessionalWCFServicesSolution\Lam.Libraries.ORM.Impl\bin\Release\EntityFramework.SqlServer.xml
+C:\000 - .NET\Demonstrations\ProfessionalWCFServicesSolution\Lam.Libraries.ORM.Impl\obj\Release\Lam.Libraries.ORM.Impl.csprojAssemblyReference.cache
+C:\000 - .NET\Demonstrations\ProfessionalWCFServicesSolution\Lam.Libraries.ORM.Impl\obj\Release\Lam.Libraries.ORM.Impl.csproj.CoreCompileInputs.cache
+C:\000 - .NET\Demonstrations\ProfessionalWCFServicesSolution\Lam.Libraries.ORM.Impl\obj\Release\Lam.Libraries.ORM.Impl.csproj.CopyComplete
+C:\000 - .NET\Demonstrations\ProfessionalWCFServicesSolution\Lam.Libraries.ORM.Impl\obj\Release\Lam.Libraries.ORM.Impl.dll
+C:\000 - .NET\Demonstrations\ProfessionalWCFServicesSolution\Lam.Libraries.ORM.Impl\obj\Release\Lam.Libraries.ORM.Impl.pdb

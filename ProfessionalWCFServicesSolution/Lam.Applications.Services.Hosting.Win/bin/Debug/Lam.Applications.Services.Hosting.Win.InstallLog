@@ -1,0 +1,61 @@
+﻿Installing assembly 'C:\000 - .NET\Demonstrations\ProfessionalWCFServicesSolution\Lam.Applications.Services.Hosting.Win\bin\Debug\Lam.Applications.Services.Hosting.Win.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\000 - .NET\Demonstrations\ProfessionalWCFServicesSolution\Lam.Applications.Services.Hosting.Win\bin\Debug\Lam.Applications.Services.Hosting.Win.InstallLog
+   assemblypath = C:\000 - .NET\Demonstrations\ProfessionalWCFServicesSolution\Lam.Applications.Services.Hosting.Win\bin\Debug\Lam.Applications.Services.Hosting.Win.exe
+   logtoconsole = 
+Installing service LamCRMSystemHostingServices...
+Service LamCRMSystemHostingServices has been successfully installed.
+Creating EventLog source LamCRMSystemHostingServices in log Application...
+Committing assembly 'C:\000 - .NET\Demonstrations\ProfessionalWCFServicesSolution\Lam.Applications.Services.Hosting.Win\bin\Debug\Lam.Applications.Services.Hosting.Win.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\000 - .NET\Demonstrations\ProfessionalWCFServicesSolution\Lam.Applications.Services.Hosting.Win\bin\Debug\Lam.Applications.Services.Hosting.Win.InstallLog
+   assemblypath = C:\000 - .NET\Demonstrations\ProfessionalWCFServicesSolution\Lam.Applications.Services.Hosting.Win\bin\Debug\Lam.Applications.Services.Hosting.Win.exe
+   logtoconsole = 
+Installing assembly 'C:\000 - .NET\Demonstrations\ProfessionalWCFServicesSolution\Lam.Applications.Services.Hosting.Win\bin\Debug\Lam.Applications.Services.Hosting.Win.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\000 - .NET\Demonstrations\ProfessionalWCFServicesSolution\Lam.Applications.Services.Hosting.Win\bin\Debug\Lam.Applications.Services.Hosting.Win.InstallLog
+   assemblypath = C:\000 - .NET\Demonstrations\ProfessionalWCFServicesSolution\Lam.Applications.Services.Hosting.Win\bin\Debug\Lam.Applications.Services.Hosting.Win.exe
+   logtoconsole = 
+Installing service LamCRMSystemHostingServices...
+Creating EventLog source LamCRMSystemHostingServices in log Application...
+Rolling back assembly 'C:\000 - .NET\Demonstrations\ProfessionalWCFServicesSolution\Lam.Applications.Services.Hosting.Win\bin\Debug\Lam.Applications.Services.Hosting.Win.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\000 - .NET\Demonstrations\ProfessionalWCFServicesSolution\Lam.Applications.Services.Hosting.Win\bin\Debug\Lam.Applications.Services.Hosting.Win.InstallLog
+   assemblypath = C:\000 - .NET\Demonstrations\ProfessionalWCFServicesSolution\Lam.Applications.Services.Hosting.Win\bin\Debug\Lam.Applications.Services.Hosting.Win.exe
+   logtoconsole = 
+Restoring event log to previous state for source LamCRMSystemHostingServices.
+Uninstalling assembly 'C:\000 - .NET\Demonstrations\ProfessionalWCFServicesSolution\Lam.Applications.Services.Hosting.Win\bin\Debug\Lam.Applications.Services.Hosting.Win.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\000 - .NET\Demonstrations\ProfessionalWCFServicesSolution\Lam.Applications.Services.Hosting.Win\bin\Debug\Lam.Applications.Services.Hosting.Win.InstallLog
+   assemblypath = C:\000 - .NET\Demonstrations\ProfessionalWCFServicesSolution\Lam.Applications.Services.Hosting.Win\bin\Debug\Lam.Applications.Services.Hosting.Win.exe
+Removing EventLog source LamCRMSystemHostingServices.
+Service LamCRMSystemHostingServices is being removed from the system...
+Service LamCRMSystemHostingServices was successfully removed from the system.
+Installing assembly 'C:\000 - .NET\Demonstrations\ProfessionalWCFServicesSolution\Lam.Applications.Services.Hosting.Win\bin\Debug\Lam.Applications.Services.Hosting.Win.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\000 - .NET\Demonstrations\ProfessionalWCFServicesSolution\Lam.Applications.Services.Hosting.Win\bin\Debug\Lam.Applications.Services.Hosting.Win.InstallLog
+   assemblypath = C:\000 - .NET\Demonstrations\ProfessionalWCFServicesSolution\Lam.Applications.Services.Hosting.Win\bin\Debug\Lam.Applications.Services.Hosting.Win.exe
+   logtoconsole = 
+Installing service LamCRMSystemHostingServices...
+Service LamCRMSystemHostingServices has been successfully installed.
+Creating EventLog source LamCRMSystemHostingServices in log Application...
+Committing assembly 'C:\000 - .NET\Demonstrations\ProfessionalWCFServicesSolution\Lam.Applications.Services.Hosting.Win\bin\Debug\Lam.Applications.Services.Hosting.Win.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\000 - .NET\Demonstrations\ProfessionalWCFServicesSolution\Lam.Applications.Services.Hosting.Win\bin\Debug\Lam.Applications.Services.Hosting.Win.InstallLog
+   assemblypath = C:\000 - .NET\Demonstrations\ProfessionalWCFServicesSolution\Lam.Applications.Services.Hosting.Win\bin\Debug\Lam.Applications.Services.Hosting.Win.exe
+   logtoconsole = 
+Uninstalling assembly 'C:\000 - .NET\Demonstrations\ProfessionalWCFServicesSolution\Lam.Applications.Services.Hosting.Win\bin\Debug\Lam.Applications.Services.Hosting.Win.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\000 - .NET\Demonstrations\ProfessionalWCFServicesSolution\Lam.Applications.Services.Hosting.Win\bin\Debug\Lam.Applications.Services.Hosting.Win.InstallLog
+   assemblypath = C:\000 - .NET\Demonstrations\ProfessionalWCFServicesSolution\Lam.Applications.Services.Hosting.Win\bin\Debug\Lam.Applications.Services.Hosting.Win.exe
+Removing EventLog source LamCRMSystemHostingServices.
+Service LamCRMSystemHostingServices is being removed from the system...
+Service LamCRMSystemHostingServices was successfully removed from the system.

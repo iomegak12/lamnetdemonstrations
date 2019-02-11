@@ -1,0 +1,5 @@
+C:\000 - .NET\Demonstrations\ProfessionalWCFServicesSolution\Lam.Libraries.SOA.Contracts.Data\bin\Debug\Lam.Libraries.SOA.Contracts.Data.dll
+C:\000 - .NET\Demonstrations\ProfessionalWCFServicesSolution\Lam.Libraries.SOA.Contracts.Data\bin\Debug\Lam.Libraries.SOA.Contracts.Data.pdb
+C:\000 - .NET\Demonstrations\ProfessionalWCFServicesSolution\Lam.Libraries.SOA.Contracts.Data\obj\Debug\Lam.Libraries.SOA.Contracts.Data.csproj.CoreCompileInputs.cache
+C:\000 - .NET\Demonstrations\ProfessionalWCFServicesSolution\Lam.Libraries.SOA.Contracts.Data\obj\Debug\Lam.Libraries.SOA.Contracts.Data.dll
+C:\000 - .NET\Demonstrations\ProfessionalWCFServicesSolution\Lam.Libraries.SOA.Contracts.Data\obj\Debug\Lam.Libraries.SOA.Contracts.Data.pdb

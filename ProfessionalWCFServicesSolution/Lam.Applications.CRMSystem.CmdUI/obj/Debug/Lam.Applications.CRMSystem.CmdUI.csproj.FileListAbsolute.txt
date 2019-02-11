@@ -1,0 +1,13 @@
+C:\000 - .NET\Demonstrations\ProfessionalWCFServicesSolution\Lam.Applications.CRMSystem.CmdUI\bin\Debug\Lam.Applications.CRMSystem.CmdUI.exe.config
+C:\000 - .NET\Demonstrations\ProfessionalWCFServicesSolution\Lam.Applications.CRMSystem.CmdUI\bin\Debug\Lam.Applications.CRMSystem.CmdUI.exe
+C:\000 - .NET\Demonstrations\ProfessionalWCFServicesSolution\Lam.Applications.CRMSystem.CmdUI\bin\Debug\Lam.Applications.CRMSystem.CmdUI.pdb
+C:\000 - .NET\Demonstrations\ProfessionalWCFServicesSolution\Lam.Applications.CRMSystem.CmdUI\bin\Debug\Lam.Libraries.SOA.Proxies.Callbacks.dll
+C:\000 - .NET\Demonstrations\ProfessionalWCFServicesSolution\Lam.Applications.CRMSystem.CmdUI\bin\Debug\Lam.Libraries.SOA.Proxies.dll
+C:\000 - .NET\Demonstrations\ProfessionalWCFServicesSolution\Lam.Applications.CRMSystem.CmdUI\bin\Debug\Lam.Libraries.SOA.Proxies.Callbacks.pdb
+C:\000 - .NET\Demonstrations\ProfessionalWCFServicesSolution\Lam.Applications.CRMSystem.CmdUI\bin\Debug\Lam.Libraries.SOA.Proxies.pdb
+C:\000 - .NET\Demonstrations\ProfessionalWCFServicesSolution\Lam.Applications.CRMSystem.CmdUI\bin\Debug\Lam.Libraries.SOA.Proxies.dll.config
+C:\000 - .NET\Demonstrations\ProfessionalWCFServicesSolution\Lam.Applications.CRMSystem.CmdUI\obj\Debug\Lam.Applications.CRMSystem.CmdUI.csprojAssemblyReference.cache
+C:\000 - .NET\Demonstrations\ProfessionalWCFServicesSolution\Lam.Applications.CRMSystem.CmdUI\obj\Debug\Lam.Applications.CRMSystem.CmdUI.csproj.CoreCompileInputs.cache
+C:\000 - .NET\Demonstrations\ProfessionalWCFServicesSolution\Lam.Applications.CRMSystem.CmdUI\obj\Debug\Lam.Applications.CRMSystem.CmdUI.csproj.CopyComplete
+C:\000 - .NET\Demonstrations\ProfessionalWCFServicesSolution\Lam.Applications.CRMSystem.CmdUI\obj\Debug\Lam.Applications.CRMSystem.CmdUI.exe
+C:\000 - .NET\Demonstrations\ProfessionalWCFServicesSolution\Lam.Applications.CRMSystem.CmdUI\obj\Debug\Lam.Applications.CRMSystem.CmdUI.pdb

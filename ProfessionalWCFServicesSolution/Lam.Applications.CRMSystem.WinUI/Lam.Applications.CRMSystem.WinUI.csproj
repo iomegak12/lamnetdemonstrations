@@ -96,6 +96,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Lam.Libraries.SOA.Proxies.Callbacks\Lam.Libraries.SOA.Proxies.Callbacks.csproj">
+      <Project>{54f69433-7407-4b81-8c08-da4fd17e460a}</Project>
+      <Name>Lam.Libraries.SOA.Proxies.Callbacks</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Lam.Libraries.SOA.Proxies\Lam.Libraries.SOA.Proxies.csproj">
       <Project>{646bd699-b0b3-47bf-a28f-68f23d5d7572}</Project>
       <Name>Lam.Libraries.SOA.Proxies</Name>

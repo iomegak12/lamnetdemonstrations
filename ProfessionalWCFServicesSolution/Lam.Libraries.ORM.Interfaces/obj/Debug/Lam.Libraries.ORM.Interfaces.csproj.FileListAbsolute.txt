@@ -1,0 +1,14 @@
+C:\000 - .NET\Demonstrations\ProfessionalWCFServicesSolution\Lam.Libraries.ORM.Interfaces\bin\Debug\Lam.Libraries.ORM.Interfaces.dll.config
+C:\000 - .NET\Demonstrations\ProfessionalWCFServicesSolution\Lam.Libraries.ORM.Interfaces\bin\Debug\Lam.Libraries.ORM.Interfaces.dll
+C:\000 - .NET\Demonstrations\ProfessionalWCFServicesSolution\Lam.Libraries.ORM.Interfaces\bin\Debug\Lam.Libraries.ORM.Interfaces.pdb
+C:\000 - .NET\Demonstrations\ProfessionalWCFServicesSolution\Lam.Libraries.ORM.Interfaces\bin\Debug\EntityFramework.dll
+C:\000 - .NET\Demonstrations\ProfessionalWCFServicesSolution\Lam.Libraries.ORM.Interfaces\bin\Debug\EntityFramework.SqlServer.dll
+C:\000 - .NET\Demonstrations\ProfessionalWCFServicesSolution\Lam.Libraries.ORM.Interfaces\bin\Debug\Lam.Libraries.SOA.Contracts.Data.dll
+C:\000 - .NET\Demonstrations\ProfessionalWCFServicesSolution\Lam.Libraries.ORM.Interfaces\bin\Debug\Lam.Libraries.SOA.Contracts.Data.pdb
+C:\000 - .NET\Demonstrations\ProfessionalWCFServicesSolution\Lam.Libraries.ORM.Interfaces\bin\Debug\EntityFramework.xml
+C:\000 - .NET\Demonstrations\ProfessionalWCFServicesSolution\Lam.Libraries.ORM.Interfaces\bin\Debug\EntityFramework.SqlServer.xml
+C:\000 - .NET\Demonstrations\ProfessionalWCFServicesSolution\Lam.Libraries.ORM.Interfaces\obj\Debug\Lam.Libraries.ORM.Interfaces.csprojAssemblyReference.cache
+C:\000 - .NET\Demonstrations\ProfessionalWCFServicesSolution\Lam.Libraries.ORM.Interfaces\obj\Debug\Lam.Libraries.ORM.Interfaces.csproj.CoreCompileInputs.cache
+C:\000 - .NET\Demonstrations\ProfessionalWCFServicesSolution\Lam.Libraries.ORM.Interfaces\obj\Debug\Lam.Libraries.ORM.Interfaces.csproj.CopyComplete
+C:\000 - .NET\Demonstrations\ProfessionalWCFServicesSolution\Lam.Libraries.ORM.Interfaces\obj\Debug\Lam.Libraries.ORM.Interfaces.dll
+C:\000 - .NET\Demonstrations\ProfessionalWCFServicesSolution\Lam.Libraries.ORM.Interfaces\obj\Debug\Lam.Libraries.ORM.Interfaces.pdb

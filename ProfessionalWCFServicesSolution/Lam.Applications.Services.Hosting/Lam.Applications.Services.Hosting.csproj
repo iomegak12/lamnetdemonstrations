@@ -43,14 +43,30 @@
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=4.0.4.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.4.5.2\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceModel.Web" />
+    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ValueTuple.4.5.0\lib\net461\System.ValueTuple.dll</HintPath>
+    </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
+    <Reference Include="Unity.Abstractions, Version=4.0.2.0, Culture=neutral, PublicKeyToken=489b6accfaf20ef0, processorArchitecture=MSIL">
+      <HintPath>..\packages\Unity.Abstractions.4.0.2\lib\net46\Unity.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Configuration, Version=5.9.1.0, Culture=neutral, PublicKeyToken=489b6accfaf20ef0, processorArchitecture=MSIL">
+      <HintPath>..\packages\Unity.Configuration.5.9.1\lib\net46\Unity.Configuration.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Container, Version=5.9.3.0, Culture=neutral, PublicKeyToken=489b6accfaf20ef0, processorArchitecture=MSIL">
+      <HintPath>..\packages\Unity.Container.5.9.3\lib\net46\Unity.Container.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Program.cs" />
@@ -59,8 +75,19 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+    <None Include="unity-configuration.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Lam.Libraries.DI.Impl\Lam.Libraries.DI.Impl.csproj">
+      <Project>{957aa2ab-0b4b-4da4-8084-c78a0248d4d8}</Project>
+      <Name>Lam.Libraries.DI.Impl</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Lam.Libraries.DI.Interfaces\Lam.Libraries.DI.Interfaces.csproj">
+      <Project>{06511e4d-cecf-457a-8507-bad219e45685}</Project>
+      <Name>Lam.Libraries.DI.Interfaces</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Lam.Libraries.ORM.Impl\Lam.Libraries.ORM.Impl.csproj">
       <Project>{c2e6606e-cfaf-483c-b2ca-656e2eefab87}</Project>
       <Name>Lam.Libraries.ORM.Impl</Name>
@@ -80,6 +107,10 @@
     <ProjectReference Include="..\Lam.Libraries.SOA.Contracts.Services\Lam.Libraries.SOA.Contracts.Services.csproj">
       <Project>{05d4a24c-ea28-4560-8f70-488639751ca0}</Project>
       <Name>Lam.Libraries.SOA.Contracts.Services</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Lam.Libraries.SOA.Extensibility\Lam.Libraries.SOA.Extensibility.csproj">
+      <Project>{3d55d559-6fb8-404a-9fc3-fe2f93de98dc}</Project>
+      <Name>Lam.Libraries.SOA.Extensibility</Name>
     </ProjectReference>
     <ProjectReference Include="..\Lam.Libraries.SOA.Impl\Lam.Libraries.SOA.Impl.csproj">
       <Project>{2bf6bec2-84e3-4375-89eb-f46a717eaf98}</Project>

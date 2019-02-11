@@ -248,113 +248,329 @@ namespace Lam.Libraries.SOA.Proxies.CRMSystem {
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    [System.ServiceModel.ServiceContractAttribute(Namespace="http://schemas.lamresearch.com/contracts/services", ConfigurationName="CRMSystem.ICustomerService")]
-    public interface ICustomerService {
+    [System.ServiceModel.ServiceContractAttribute(Namespace="http://schemas.lamresearch.com/contracts/", ConfigurationName="CRMSystem.ICustomerDuplexService", CallbackContract=typeof(Lam.Libraries.SOA.Proxies.CRMSystem.ICustomerDuplexServiceCallback))]
+    public interface ICustomerDuplexService {
         
+        // CODEGEN: Generating message contract since the wrapper namespace (http://schemas.lamresearch.com/contracts/services) of message GetAllCustomersRequest does not match the default value (http://schemas.lamresearch.com/contracts/)
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.lamresearch.com/contracts/services/ICustomerService/GetAllCustomer" +
             "s", ReplyAction="http://schemas.lamresearch.com/contracts/services/ICustomerService/GetAllCustomer" +
             "sResponse")]
         [System.ServiceModel.FaultContractAttribute(typeof(Lam.Libraries.SOA.Proxies.CRMSystem.ServiceError), Action="http://schemas.lamresearch.com/contracts/services/ICustomerService/GetAllCustomer" +
             "sServiceErrorFault", Name="ServiceError", Namespace="http://schemas.lamresearch.com/contracts/faults")]
-        Lam.Libraries.SOA.Proxies.CRMSystem.Customer[] GetAllCustomers();
+        Lam.Libraries.SOA.Proxies.CRMSystem.GetAllCustomersResponse GetAllCustomers(Lam.Libraries.SOA.Proxies.CRMSystem.GetAllCustomersRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.lamresearch.com/contracts/services/ICustomerService/GetAllCustomer" +
             "s", ReplyAction="http://schemas.lamresearch.com/contracts/services/ICustomerService/GetAllCustomer" +
             "sResponse")]
-        System.Threading.Tasks.Task<Lam.Libraries.SOA.Proxies.CRMSystem.Customer[]> GetAllCustomersAsync();
+        System.Threading.Tasks.Task<Lam.Libraries.SOA.Proxies.CRMSystem.GetAllCustomersResponse> GetAllCustomersAsync(Lam.Libraries.SOA.Proxies.CRMSystem.GetAllCustomersRequest request);
         
+        // CODEGEN: Generating message contract since the wrapper namespace (http://schemas.lamresearch.com/contracts/services) of message FindCustomersRequest does not match the default value (http://schemas.lamresearch.com/contracts/)
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.lamresearch.com/contracts/services/ICustomerService/FindCustomers", ReplyAction="http://schemas.lamresearch.com/contracts/services/ICustomerService/FindCustomersR" +
             "esponse")]
         [System.ServiceModel.FaultContractAttribute(typeof(Lam.Libraries.SOA.Proxies.CRMSystem.ServiceError), Action="http://schemas.lamresearch.com/contracts/services/ICustomerService/FindCustomersS" +
             "erviceErrorFault", Name="ServiceError", Namespace="http://schemas.lamresearch.com/contracts/faults")]
-        Lam.Libraries.SOA.Proxies.CRMSystem.Customer[] FindCustomers(string customerName);
+        Lam.Libraries.SOA.Proxies.CRMSystem.FindCustomersResponse FindCustomers(Lam.Libraries.SOA.Proxies.CRMSystem.FindCustomersRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.lamresearch.com/contracts/services/ICustomerService/FindCustomers", ReplyAction="http://schemas.lamresearch.com/contracts/services/ICustomerService/FindCustomersR" +
             "esponse")]
-        System.Threading.Tasks.Task<Lam.Libraries.SOA.Proxies.CRMSystem.Customer[]> FindCustomersAsync(string customerName);
+        System.Threading.Tasks.Task<Lam.Libraries.SOA.Proxies.CRMSystem.FindCustomersResponse> FindCustomersAsync(Lam.Libraries.SOA.Proxies.CRMSystem.FindCustomersRequest request);
         
+        // CODEGEN: Generating message contract since the wrapper namespace (http://schemas.lamresearch.com/contracts/services) of message GetCustomerDetailRequest does not match the default value (http://schemas.lamresearch.com/contracts/)
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.lamresearch.com/contracts/services/ICustomerService/GetCustomerDet" +
             "ail", ReplyAction="http://schemas.lamresearch.com/contracts/services/ICustomerService/GetCustomerDet" +
             "ailResponse")]
         [System.ServiceModel.FaultContractAttribute(typeof(Lam.Libraries.SOA.Proxies.CRMSystem.ServiceError), Action="http://schemas.lamresearch.com/contracts/services/ICustomerService/GetCustomerDet" +
             "ailServiceErrorFault", Name="ServiceError", Namespace="http://schemas.lamresearch.com/contracts/faults")]
-        Lam.Libraries.SOA.Proxies.CRMSystem.Customer GetCustomerDetail(int customerId);
+        Lam.Libraries.SOA.Proxies.CRMSystem.GetCustomerDetailResponse GetCustomerDetail(Lam.Libraries.SOA.Proxies.CRMSystem.GetCustomerDetailRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.lamresearch.com/contracts/services/ICustomerService/GetCustomerDet" +
             "ail", ReplyAction="http://schemas.lamresearch.com/contracts/services/ICustomerService/GetCustomerDet" +
             "ailResponse")]
-        System.Threading.Tasks.Task<Lam.Libraries.SOA.Proxies.CRMSystem.Customer> GetCustomerDetailAsync(int customerId);
+        System.Threading.Tasks.Task<Lam.Libraries.SOA.Proxies.CRMSystem.GetCustomerDetailResponse> GetCustomerDetailAsync(Lam.Libraries.SOA.Proxies.CRMSystem.GetCustomerDetailRequest request);
         
+        // CODEGEN: Generating message contract since the wrapper namespace (http://schemas.lamresearch.com/contracts/services) of message AddCustomerDetailRequest does not match the default value (http://schemas.lamresearch.com/contracts/)
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.lamresearch.com/contracts/services/ICustomerService/AddCustomerDet" +
             "ail", ReplyAction="http://schemas.lamresearch.com/contracts/services/ICustomerService/AddCustomerDet" +
             "ailResponse")]
         [System.ServiceModel.FaultContractAttribute(typeof(Lam.Libraries.SOA.Proxies.CRMSystem.ServiceError), Action="http://schemas.lamresearch.com/contracts/services/ICustomerService/AddCustomerDet" +
             "ailServiceErrorFault", Name="ServiceError", Namespace="http://schemas.lamresearch.com/contracts/faults")]
-        bool AddCustomerDetail(Lam.Libraries.SOA.Proxies.CRMSystem.Customer customerDetail);
+        Lam.Libraries.SOA.Proxies.CRMSystem.AddCustomerDetailResponse AddCustomerDetail(Lam.Libraries.SOA.Proxies.CRMSystem.AddCustomerDetailRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.lamresearch.com/contracts/services/ICustomerService/AddCustomerDet" +
             "ail", ReplyAction="http://schemas.lamresearch.com/contracts/services/ICustomerService/AddCustomerDet" +
             "ailResponse")]
-        System.Threading.Tasks.Task<bool> AddCustomerDetailAsync(Lam.Libraries.SOA.Proxies.CRMSystem.Customer customerDetail);
+        System.Threading.Tasks.Task<Lam.Libraries.SOA.Proxies.CRMSystem.AddCustomerDetailResponse> AddCustomerDetailAsync(Lam.Libraries.SOA.Proxies.CRMSystem.AddCustomerDetailRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://schemas.lamresearch.com/contracts/ICustomerDuplexService/RegisterUIType", ReplyAction="http://schemas.lamresearch.com/contracts/ICustomerDuplexService/RegisterUITypeRes" +
+            "ponse")]
+        void RegisterUIType(string uiType);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://schemas.lamresearch.com/contracts/ICustomerDuplexService/RegisterUIType", ReplyAction="http://schemas.lamresearch.com/contracts/ICustomerDuplexService/RegisterUITypeRes" +
+            "ponse")]
+        System.Threading.Tasks.Task RegisterUITypeAsync(string uiType);
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public interface ICustomerServiceChannel : Lam.Libraries.SOA.Proxies.CRMSystem.ICustomerService, System.ServiceModel.IClientChannel {
+    public interface ICustomerDuplexServiceCallback {
+        
+        [System.ServiceModel.OperationContractAttribute(IsOneWay=true, Action="http://schemas.lamresearch.com/contracts/ICustomerDuplexService/NotifyNewCustomer" +
+            "Record")]
+        void NotifyNewCustomerRecord(Lam.Libraries.SOA.Proxies.CRMSystem.Customer newCustomerRecord);
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public partial class CustomerServiceClient : System.ServiceModel.ClientBase<Lam.Libraries.SOA.Proxies.CRMSystem.ICustomerService>, Lam.Libraries.SOA.Proxies.CRMSystem.ICustomerService {
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="GetAllCustomers", WrapperNamespace="http://schemas.lamresearch.com/contracts/services", IsWrapped=true)]
+    public partial class GetAllCustomersRequest {
         
-        public CustomerServiceClient() {
+        public GetAllCustomersRequest() {
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="GetAllCustomersResponse", WrapperNamespace="http://schemas.lamresearch.com/contracts/services", IsWrapped=true)]
+    public partial class GetAllCustomersResponse {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.lamresearch.com/contracts/services", Order=0)]
+        public Lam.Libraries.SOA.Proxies.CRMSystem.Customer[] GetAllCustomersResult;
+        
+        public GetAllCustomersResponse() {
         }
         
-        public CustomerServiceClient(string endpointConfigurationName) : 
-                base(endpointConfigurationName) {
+        public GetAllCustomersResponse(Lam.Libraries.SOA.Proxies.CRMSystem.Customer[] GetAllCustomersResult) {
+            this.GetAllCustomersResult = GetAllCustomersResult;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="FindCustomers", WrapperNamespace="http://schemas.lamresearch.com/contracts/services", IsWrapped=true)]
+    public partial class FindCustomersRequest {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.lamresearch.com/contracts/services", Order=0)]
+        public string customerName;
+        
+        public FindCustomersRequest() {
         }
         
-        public CustomerServiceClient(string endpointConfigurationName, string remoteAddress) : 
-                base(endpointConfigurationName, remoteAddress) {
+        public FindCustomersRequest(string customerName) {
+            this.customerName = customerName;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="FindCustomersResponse", WrapperNamespace="http://schemas.lamresearch.com/contracts/services", IsWrapped=true)]
+    public partial class FindCustomersResponse {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.lamresearch.com/contracts/services", Order=0)]
+        public Lam.Libraries.SOA.Proxies.CRMSystem.Customer[] FindCustomersResult;
+        
+        public FindCustomersResponse() {
         }
         
-        public CustomerServiceClient(string endpointConfigurationName, System.ServiceModel.EndpointAddress remoteAddress) : 
-                base(endpointConfigurationName, remoteAddress) {
+        public FindCustomersResponse(Lam.Libraries.SOA.Proxies.CRMSystem.Customer[] FindCustomersResult) {
+            this.FindCustomersResult = FindCustomersResult;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="GetCustomerDetail", WrapperNamespace="http://schemas.lamresearch.com/contracts/services", IsWrapped=true)]
+    public partial class GetCustomerDetailRequest {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.lamresearch.com/contracts/services", Order=0)]
+        public int customerId;
+        
+        public GetCustomerDetailRequest() {
         }
         
-        public CustomerServiceClient(System.ServiceModel.Channels.Binding binding, System.ServiceModel.EndpointAddress remoteAddress) : 
-                base(binding, remoteAddress) {
+        public GetCustomerDetailRequest(int customerId) {
+            this.customerId = customerId;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="GetCustomerDetailResponse", WrapperNamespace="http://schemas.lamresearch.com/contracts/services", IsWrapped=true)]
+    public partial class GetCustomerDetailResponse {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.lamresearch.com/contracts/services", Order=0)]
+        public Lam.Libraries.SOA.Proxies.CRMSystem.Customer GetCustomerDetailResult;
+        
+        public GetCustomerDetailResponse() {
+        }
+        
+        public GetCustomerDetailResponse(Lam.Libraries.SOA.Proxies.CRMSystem.Customer GetCustomerDetailResult) {
+            this.GetCustomerDetailResult = GetCustomerDetailResult;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="AddCustomerDetail", WrapperNamespace="http://schemas.lamresearch.com/contracts/services", IsWrapped=true)]
+    public partial class AddCustomerDetailRequest {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.lamresearch.com/contracts/services", Order=0)]
+        public Lam.Libraries.SOA.Proxies.CRMSystem.Customer customerDetail;
+        
+        public AddCustomerDetailRequest() {
+        }
+        
+        public AddCustomerDetailRequest(Lam.Libraries.SOA.Proxies.CRMSystem.Customer customerDetail) {
+            this.customerDetail = customerDetail;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="AddCustomerDetailResponse", WrapperNamespace="http://schemas.lamresearch.com/contracts/services", IsWrapped=true)]
+    public partial class AddCustomerDetailResponse {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.lamresearch.com/contracts/services", Order=0)]
+        public bool AddCustomerDetailResult;
+        
+        public AddCustomerDetailResponse() {
+        }
+        
+        public AddCustomerDetailResponse(bool AddCustomerDetailResult) {
+            this.AddCustomerDetailResult = AddCustomerDetailResult;
+        }
+    }
+    
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    public interface ICustomerDuplexServiceChannel : Lam.Libraries.SOA.Proxies.CRMSystem.ICustomerDuplexService, System.ServiceModel.IClientChannel {
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    public partial class CustomerDuplexServiceClient : System.ServiceModel.DuplexClientBase<Lam.Libraries.SOA.Proxies.CRMSystem.ICustomerDuplexService>, Lam.Libraries.SOA.Proxies.CRMSystem.ICustomerDuplexService {
+        
+        public CustomerDuplexServiceClient(System.ServiceModel.InstanceContext callbackInstance) : 
+                base(callbackInstance) {
+        }
+        
+        public CustomerDuplexServiceClient(System.ServiceModel.InstanceContext callbackInstance, string endpointConfigurationName) : 
+                base(callbackInstance, endpointConfigurationName) {
+        }
+        
+        public CustomerDuplexServiceClient(System.ServiceModel.InstanceContext callbackInstance, string endpointConfigurationName, string remoteAddress) : 
+                base(callbackInstance, endpointConfigurationName, remoteAddress) {
+        }
+        
+        public CustomerDuplexServiceClient(System.ServiceModel.InstanceContext callbackInstance, string endpointConfigurationName, System.ServiceModel.EndpointAddress remoteAddress) : 
+                base(callbackInstance, endpointConfigurationName, remoteAddress) {
+        }
+        
+        public CustomerDuplexServiceClient(System.ServiceModel.InstanceContext callbackInstance, System.ServiceModel.Channels.Binding binding, System.ServiceModel.EndpointAddress remoteAddress) : 
+                base(callbackInstance, binding, remoteAddress) {
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        Lam.Libraries.SOA.Proxies.CRMSystem.GetAllCustomersResponse Lam.Libraries.SOA.Proxies.CRMSystem.ICustomerDuplexService.GetAllCustomers(Lam.Libraries.SOA.Proxies.CRMSystem.GetAllCustomersRequest request) {
+            return base.Channel.GetAllCustomers(request);
         }
         
         public Lam.Libraries.SOA.Proxies.CRMSystem.Customer[] GetAllCustomers() {
-            return base.Channel.GetAllCustomers();
+            Lam.Libraries.SOA.Proxies.CRMSystem.GetAllCustomersRequest inValue = new Lam.Libraries.SOA.Proxies.CRMSystem.GetAllCustomersRequest();
+            Lam.Libraries.SOA.Proxies.CRMSystem.GetAllCustomersResponse retVal = ((Lam.Libraries.SOA.Proxies.CRMSystem.ICustomerDuplexService)(this)).GetAllCustomers(inValue);
+            return retVal.GetAllCustomersResult;
         }
         
-        public System.Threading.Tasks.Task<Lam.Libraries.SOA.Proxies.CRMSystem.Customer[]> GetAllCustomersAsync() {
-            return base.Channel.GetAllCustomersAsync();
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        System.Threading.Tasks.Task<Lam.Libraries.SOA.Proxies.CRMSystem.GetAllCustomersResponse> Lam.Libraries.SOA.Proxies.CRMSystem.ICustomerDuplexService.GetAllCustomersAsync(Lam.Libraries.SOA.Proxies.CRMSystem.GetAllCustomersRequest request) {
+            return base.Channel.GetAllCustomersAsync(request);
+        }
+        
+        public System.Threading.Tasks.Task<Lam.Libraries.SOA.Proxies.CRMSystem.GetAllCustomersResponse> GetAllCustomersAsync() {
+            Lam.Libraries.SOA.Proxies.CRMSystem.GetAllCustomersRequest inValue = new Lam.Libraries.SOA.Proxies.CRMSystem.GetAllCustomersRequest();
+            return ((Lam.Libraries.SOA.Proxies.CRMSystem.ICustomerDuplexService)(this)).GetAllCustomersAsync(inValue);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        Lam.Libraries.SOA.Proxies.CRMSystem.FindCustomersResponse Lam.Libraries.SOA.Proxies.CRMSystem.ICustomerDuplexService.FindCustomers(Lam.Libraries.SOA.Proxies.CRMSystem.FindCustomersRequest request) {
+            return base.Channel.FindCustomers(request);
         }
         
         public Lam.Libraries.SOA.Proxies.CRMSystem.Customer[] FindCustomers(string customerName) {
-            return base.Channel.FindCustomers(customerName);
+            Lam.Libraries.SOA.Proxies.CRMSystem.FindCustomersRequest inValue = new Lam.Libraries.SOA.Proxies.CRMSystem.FindCustomersRequest();
+            inValue.customerName = customerName;
+            Lam.Libraries.SOA.Proxies.CRMSystem.FindCustomersResponse retVal = ((Lam.Libraries.SOA.Proxies.CRMSystem.ICustomerDuplexService)(this)).FindCustomers(inValue);
+            return retVal.FindCustomersResult;
         }
         
-        public System.Threading.Tasks.Task<Lam.Libraries.SOA.Proxies.CRMSystem.Customer[]> FindCustomersAsync(string customerName) {
-            return base.Channel.FindCustomersAsync(customerName);
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        System.Threading.Tasks.Task<Lam.Libraries.SOA.Proxies.CRMSystem.FindCustomersResponse> Lam.Libraries.SOA.Proxies.CRMSystem.ICustomerDuplexService.FindCustomersAsync(Lam.Libraries.SOA.Proxies.CRMSystem.FindCustomersRequest request) {
+            return base.Channel.FindCustomersAsync(request);
+        }
+        
+        public System.Threading.Tasks.Task<Lam.Libraries.SOA.Proxies.CRMSystem.FindCustomersResponse> FindCustomersAsync(string customerName) {
+            Lam.Libraries.SOA.Proxies.CRMSystem.FindCustomersRequest inValue = new Lam.Libraries.SOA.Proxies.CRMSystem.FindCustomersRequest();
+            inValue.customerName = customerName;
+            return ((Lam.Libraries.SOA.Proxies.CRMSystem.ICustomerDuplexService)(this)).FindCustomersAsync(inValue);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        Lam.Libraries.SOA.Proxies.CRMSystem.GetCustomerDetailResponse Lam.Libraries.SOA.Proxies.CRMSystem.ICustomerDuplexService.GetCustomerDetail(Lam.Libraries.SOA.Proxies.CRMSystem.GetCustomerDetailRequest request) {
+            return base.Channel.GetCustomerDetail(request);
         }
         
         public Lam.Libraries.SOA.Proxies.CRMSystem.Customer GetCustomerDetail(int customerId) {
-            return base.Channel.GetCustomerDetail(customerId);
+            Lam.Libraries.SOA.Proxies.CRMSystem.GetCustomerDetailRequest inValue = new Lam.Libraries.SOA.Proxies.CRMSystem.GetCustomerDetailRequest();
+            inValue.customerId = customerId;
+            Lam.Libraries.SOA.Proxies.CRMSystem.GetCustomerDetailResponse retVal = ((Lam.Libraries.SOA.Proxies.CRMSystem.ICustomerDuplexService)(this)).GetCustomerDetail(inValue);
+            return retVal.GetCustomerDetailResult;
         }
         
-        public System.Threading.Tasks.Task<Lam.Libraries.SOA.Proxies.CRMSystem.Customer> GetCustomerDetailAsync(int customerId) {
-            return base.Channel.GetCustomerDetailAsync(customerId);
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        System.Threading.Tasks.Task<Lam.Libraries.SOA.Proxies.CRMSystem.GetCustomerDetailResponse> Lam.Libraries.SOA.Proxies.CRMSystem.ICustomerDuplexService.GetCustomerDetailAsync(Lam.Libraries.SOA.Proxies.CRMSystem.GetCustomerDetailRequest request) {
+            return base.Channel.GetCustomerDetailAsync(request);
+        }
+        
+        public System.Threading.Tasks.Task<Lam.Libraries.SOA.Proxies.CRMSystem.GetCustomerDetailResponse> GetCustomerDetailAsync(int customerId) {
+            Lam.Libraries.SOA.Proxies.CRMSystem.GetCustomerDetailRequest inValue = new Lam.Libraries.SOA.Proxies.CRMSystem.GetCustomerDetailRequest();
+            inValue.customerId = customerId;
+            return ((Lam.Libraries.SOA.Proxies.CRMSystem.ICustomerDuplexService)(this)).GetCustomerDetailAsync(inValue);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        Lam.Libraries.SOA.Proxies.CRMSystem.AddCustomerDetailResponse Lam.Libraries.SOA.Proxies.CRMSystem.ICustomerDuplexService.AddCustomerDetail(Lam.Libraries.SOA.Proxies.CRMSystem.AddCustomerDetailRequest request) {
+            return base.Channel.AddCustomerDetail(request);
         }
         
         public bool AddCustomerDetail(Lam.Libraries.SOA.Proxies.CRMSystem.Customer customerDetail) {
-            return base.Channel.AddCustomerDetail(customerDetail);
+            Lam.Libraries.SOA.Proxies.CRMSystem.AddCustomerDetailRequest inValue = new Lam.Libraries.SOA.Proxies.CRMSystem.AddCustomerDetailRequest();
+            inValue.customerDetail = customerDetail;
+            Lam.Libraries.SOA.Proxies.CRMSystem.AddCustomerDetailResponse retVal = ((Lam.Libraries.SOA.Proxies.CRMSystem.ICustomerDuplexService)(this)).AddCustomerDetail(inValue);
+            return retVal.AddCustomerDetailResult;
         }
         
-        public System.Threading.Tasks.Task<bool> AddCustomerDetailAsync(Lam.Libraries.SOA.Proxies.CRMSystem.Customer customerDetail) {
-            return base.Channel.AddCustomerDetailAsync(customerDetail);
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        System.Threading.Tasks.Task<Lam.Libraries.SOA.Proxies.CRMSystem.AddCustomerDetailResponse> Lam.Libraries.SOA.Proxies.CRMSystem.ICustomerDuplexService.AddCustomerDetailAsync(Lam.Libraries.SOA.Proxies.CRMSystem.AddCustomerDetailRequest request) {
+            return base.Channel.AddCustomerDetailAsync(request);
+        }
+        
+        public System.Threading.Tasks.Task<Lam.Libraries.SOA.Proxies.CRMSystem.AddCustomerDetailResponse> AddCustomerDetailAsync(Lam.Libraries.SOA.Proxies.CRMSystem.Customer customerDetail) {
+            Lam.Libraries.SOA.Proxies.CRMSystem.AddCustomerDetailRequest inValue = new Lam.Libraries.SOA.Proxies.CRMSystem.AddCustomerDetailRequest();
+            inValue.customerDetail = customerDetail;
+            return ((Lam.Libraries.SOA.Proxies.CRMSystem.ICustomerDuplexService)(this)).AddCustomerDetailAsync(inValue);
+        }
+        
+        public void RegisterUIType(string uiType) {
+            base.Channel.RegisterUIType(uiType);
+        }
+        
+        public System.Threading.Tasks.Task RegisterUITypeAsync(string uiType) {
+            return base.Channel.RegisterUITypeAsync(uiType);
         }
     }
 }

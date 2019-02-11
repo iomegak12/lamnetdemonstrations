@@ -29,6 +29,7 @@
     <MetadataFile FileName="mex2.xsd" MetadataType="Schema" ID="79c6d7d6-87d7-4da3-acc4-d6aaa7e26251" SourceId="1" SourceUrl="http://ramthinkpad:8989/mex?xsd=xsd2" />
     <MetadataFile FileName="CustomerService.wsdl" MetadataType="Wsdl" ID="78fa45aa-ac45-4d2c-99ea-99a947c0cb79" SourceId="1" SourceUrl="http://ramthinkpad:8989/mex" />
     <MetadataFile FileName="mex3.xsd" MetadataType="Schema" ID="534529d3-a272-437b-969f-3a22356edd50" SourceId="1" SourceUrl="http://ramthinkpad:8989/mex?xsd=xsd0" />
+    <MetadataFile FileName="mex4.xsd" MetadataType="Schema" ID="794e976a-ce8a-45e1-b4a3-903ee8d246fa" SourceId="1" SourceUrl="http://ramthinkpad:8989/mex?xsd=xsd4" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />

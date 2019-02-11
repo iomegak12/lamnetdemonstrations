@@ -1,0 +1,7 @@
+C:\000 - .NET\Demonstrations\ProfessionalWCFServicesSolution\Lam.Libraries.SOA.Proxies\bin\Debug\Lam.Libraries.SOA.Proxies.dll.config
+C:\000 - .NET\Demonstrations\ProfessionalWCFServicesSolution\Lam.Libraries.SOA.Proxies\bin\Debug\Lam.Libraries.SOA.Proxies.dll
+C:\000 - .NET\Demonstrations\ProfessionalWCFServicesSolution\Lam.Libraries.SOA.Proxies\bin\Debug\Lam.Libraries.SOA.Proxies.pdb
+C:\000 - .NET\Demonstrations\ProfessionalWCFServicesSolution\Lam.Libraries.SOA.Proxies\obj\Debug\Lam.Libraries.SOA.Proxies.csprojAssemblyReference.cache
+C:\000 - .NET\Demonstrations\ProfessionalWCFServicesSolution\Lam.Libraries.SOA.Proxies\obj\Debug\Lam.Libraries.SOA.Proxies.csproj.CoreCompileInputs.cache
+C:\000 - .NET\Demonstrations\ProfessionalWCFServicesSolution\Lam.Libraries.SOA.Proxies\obj\Debug\Lam.Libraries.SOA.Proxies.dll
+C:\000 - .NET\Demonstrations\ProfessionalWCFServicesSolution\Lam.Libraries.SOA.Proxies\obj\Debug\Lam.Libraries.SOA.Proxies.pdb

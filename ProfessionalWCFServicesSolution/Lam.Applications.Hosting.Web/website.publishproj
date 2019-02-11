@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+
+***********************************************************************************************
+website.publishproj
+
+WARNING: DO NOT MODIFY this file, it is used for the web publish process.
+
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+***********************************************************************************************
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.30319</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{f5d4a234-e6dd-448f-8689-b8e6745c3258}</ProjectGuid>
+    <SourceWebPhysicalPath>$(MSBuildThisFileDirectory)</SourceWebPhysicalPath>
+    <SourceWebVirtualPath>/Lam.Applications.Hosting.Web</SourceWebVirtualPath>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <SourceWebProject>
+    </SourceWebProject>
+    <SourceWebMetabasePath>
+    </SourceWebMetabasePath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <!-- for VS2010 we need to use 10.5 but for VS2012+ we should use VisualStudioVersion -->
+    <WebPublishTargetsVersion Condition=" '$(WebPublishTargetsVersion)' =='' and '$(VisualStudioVersion)' == 10.0 ">10.5</WebPublishTargetsVersion>
+    <WebPublishTargetsVersion Condition=" '$(WebPublishTargetsVersion)'=='' ">$(VisualStudioVersion)</WebPublishTargetsVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(WebPublishTargetsVersion)</VSToolsPath>
+    <_WebPublishTargetsPath Condition=" '$(_WebPublishTargetsPath)'=='' ">$(VSToolsPath)</_WebPublishTargetsPath>
+    <AssemblyFileVersion Condition="'$(AssemblyFileVersion)' == ''">1.0.0.0</AssemblyFileVersion>
+    <AssemblyVersion Condition="'$(AssemblyVersion)' == ''">1.0.0.0</AssemblyVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AssemblyAttributes Include="AssemblyFileVersion">
+      <Value>$(AssemblyFileVersion)</Value>
+    </AssemblyAttributes>
+    <AssemblyAttributes Include="AssemblyVersion">
+      <Value>$(AssemblyVersion)</Value>
+    </AssemblyAttributes>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Lam.Libraries.ORM.Impl\Lam.Libraries.ORM.Impl.csproj">
+      <Project>{C2E6606E-CFAF-483C-B2CA-656E2EEFAB87}</Project>
+      <Name>Lam.Libraries.ORM.Impl</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Lam.Libraries.ORM.Interfaces\Lam.Libraries.ORM.Interfaces.csproj">
+      <Project>{C8A722D0-821A-4CB8-9314-C0CEE2EE7D3A}</Project>
+      <Name>Lam.Libraries.ORM.Interfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Lam.Libraries.SOA.Contracts.Data\Lam.Libraries.SOA.Contracts.Data.csproj">
+      <Project>{EE78C991-C8AE-41AE-A5E6-2500DE8A9DDA}</Project>
+      <Name>Lam.Libraries.SOA.Contracts.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Lam.Libraries.SOA.Contracts.Faults\Lam.Libraries.SOA.Contracts.Faults.csproj">
+      <Project>{CF910972-FEC3-42F4-B944-3F0E2DFFB77A}</Project>
+      <Name>Lam.Libraries.SOA.Contracts.Faults</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Lam.Libraries.SOA.Contracts.Services\Lam.Libraries.SOA.Contracts.Services.csproj">
+      <Project>{05D4A24C-EA28-4560-8F70-488639751CA0}</Project>
+      <Name>Lam.Libraries.SOA.Contracts.Services</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Lam.Libraries.SOA.Impl\Lam.Libraries.SOA.Impl.csproj">
+      <Project>{2BF6BEC2-84E3-4375-89EB-F46A717EAF98}</Project>
+      <Name>Lam.Libraries.SOA.Impl</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(_WebPublishTargetsPath)\Web\Microsoft.WebSite.Publishing.targets" />
+</Project>
